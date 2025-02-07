@@ -3,6 +3,8 @@ import LineChart from "./components/LineChart";
 import BarChart from "./components/BarChart";
 import PieChart from "./components/PieChart";
 import DoughnutChart from "./components/DoughnutChart";
+import DoughnutApiChart from "./components/WithApi";
+import BubbleChart from "./components/BubbleChart";
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <BarChart />
       <PieChart />
       <DoughnutChart />
+      <DoughnutApiChart />
+      <BubbleChart />
     </div>
   );
 };
